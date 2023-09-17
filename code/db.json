@@ -1,0 +1,123 @@
+{
+  "competition": [
+    {
+      "key": "SENIOR MEN",
+      "values": [
+        {
+          "uniqueID": "a",
+          "key": "under 66kgs",
+          "values": [
+            {
+              "firstname": "John",
+              "lastname": "Smith"
+            },
+            {
+              "firstname": "Peter",
+              "lastname": "Parker"
+            },
+            {
+              "firstname": "Michael",
+              "lastname": "Walters"
+            },
+            {
+              "firstname": "Steven",
+              "lastname": "Seagal"
+            }
+          ]
+        },
+        {
+          "uniqueID": "b",
+          "key": "under/73kgs",
+          "values": [
+            {
+              "firstname": "William",
+              "lastname": "Jonas"
+            },
+            {
+              "firstname": "Liam",
+              "lastname": "Yoop"
+            },
+            {
+              "firstname": "Franck",
+              "lastname": "Zach"
+            },
+            {
+              "firstname": "Pieter",
+              "lastname": "Upston"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "SENIOR WOMEN",
+      "values": [
+        {
+          "uniqueID": "c",
+          "key": "Under/57kgs",
+          "values": [
+            {
+              "firstname": "Serena",
+              "lastname": "Turner"
+            },
+            {
+              "firstname": "Stefanie",
+              "lastname": "Michaels"
+            },
+            {
+              "firstname": "Ash",
+              "lastname": "Joel"
+            },
+            {
+              "firstname": "Celine",
+              "lastname": "George"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "JUNIOR MEN",
+      "values": [
+        {
+          "uniqueID": "d",
+          "key": "under/81kgs",
+          "values": [
+            {
+              "firstname": "Blake",
+              "lastname": "Angus"
+            },
+            {
+              "firstname": "Newman",
+              "lastname": "Mitchel"
+            },
+            {
+              "firstname": "Toby",
+              "lastname": "Botha"
+            },
+            {
+              "firstname": "Mike",
+              "lastname": "Davids"
+            },
+            {
+              "firstname": "Phil",
+              "lastname": "Lam"
+            },
+            {
+              "firstname": "Adam",
+              "lastname": "Toby"
+            },
+            {
+              "firstname": "Hayden",
+              "lastname": "Flip"
+            },
+            {
+              "firstname": "Grant",
+              "lastname": "Ellis"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

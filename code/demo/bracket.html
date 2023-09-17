@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>View Bracket</title>
+    <meta name="description" content="Bracket Viewer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="themes/light.css" />
+    <link rel="stylesheet" href="../dist/brackets-viewer.css" />
+    <script type="text/javascript" src="../dist/brackets-viewer.js"></script>
+    <script type="text/javascript" src="../dist/stage-form-creator.js"></script>
+    <style>
+      #input-mask div {
+        background: lightgrey;
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This div will be used as the root for the library. It must be **perfectly** empty to prevent a FOUC. -->
+    <div id="bracketsViewerExample" class="brackets-viewer"></div>
+
+    <div id="input-mask">
+      <div>
+        <h3></h3>
+        <label id="opponent1-label" for="opponent1">Opponent 1: </label
+        ><input type="number" id="opponent1" /><br />
+        <label id="opponent2-label" for="opponent2">Opponent 2: </label
+        ><input type="number" id="opponent2" /><br />
+        <p>Who won?</p>
+        <input
+          type="radio"
+          id="won-opponent1"
+          value="opponent1"
+          name="won"
+          checked
+        /><label for="won-opponent1">Opponent1</label><br />
+        <input
+          type="radio"
+          id="won-opponent2"
+          value="opponent2"
+          name="won"
+        /><label for="won-opponent2">Opponent2</label><br />
+        <input type="radio" id="won-draw" value="draw" name="won" /><label
+          for="won-draw"
+          >Draw</label
+        ><br /><br />
+        <button id="input-submit">Submit</button>
+      </div>
+    </div>
+
+    <script>
+      const BRACKETS = "brackets";
+    </script>
+    <script src="viewer.js"></script>
+  </body>
+</html>
