@@ -11,6 +11,6 @@ The current appliation needs to be converted to a MERN stack.
 
 ![alt text](https://github.com/willredp/competition/blob/main/Image/Requests-3.png)
 
-The folder judoscore-master contains the code for the scoreboard
+The folder judoscore-master contains the code for the scoreboard below:
 
 ![alt text](https://github.com/willredp/competition/blob/main/Image/Requests-4.png)
